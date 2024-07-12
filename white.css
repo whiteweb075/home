@@ -24,13 +24,14 @@ header .topheading {
     justify-content: center;
     flex-direction:column;
     margin-top: 1rem;
+    text-align: center;
 }
 
 header .logo-sec img {
     height: 30vh;
     border: 0.3rem solid green;
     border-radius: 50%;
-    background-color: ;
+ 
 }
  .content {
     margin-top: 2rem;
