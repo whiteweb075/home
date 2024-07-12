@@ -3,6 +3,88 @@
     padding: 0;
 }
 
-h1 {
-    color: red;
+
+@media (max-width: 600px) {
+    
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+
+
+
+}
+
+header .logo-sec img {
+    height: 30vh;
+    border: 0.3rem solid green;
+    border-radius: 50%;
+    background-color: ;
+}
+ .content {
+    margin-top: 2rem;
+    color: blue;
+    font-style: italic;
+    padding: 2rem;
+ }
+ .content2 {
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+ }
+ .content2 img {
+    height: 60vh;
+ }
+}
+@media (min-width: 600px) {
+    
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 1rem;
+  
+
+
+
+}
+header .topheading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    margin-left: 3rem;
+}
+
+header .logo-sec img {
+    height: 30vh;
+    border: 0.3rem solid green;
+    border-radius: 50%;
+    background-color: ;
+}
+ .content {
+    margin-top: 2rem;
+    color: blue;
+    font-style: italic;
+    padding: 2rem;
+ }
+ .content2 {
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+ }
+ .content2 img {
+    height: 60vh;
+ }
 }
