@@ -18,6 +18,13 @@ header {
 
 
 }
+header .topheading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    margin-top: 1rem;
+}
 
 header .logo-sec img {
     height: 30vh;
