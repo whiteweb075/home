@@ -92,7 +92,7 @@ header .logo-sec img {
     cursor: pointer;
     position: absolute;
     top: 20px;
-    right: 0;
+    right: -9%;
     color: #333;
 
 }
