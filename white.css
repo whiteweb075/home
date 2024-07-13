@@ -264,8 +264,7 @@ header .logo-sec img {
     padding: 2rem;
  }
  .content2 {
-    display: flex;
-   
+    display: flex;   
     align-items: center;
     justify-content: center;
     flex-direction:column;

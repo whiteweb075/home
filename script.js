@@ -27,5 +27,5 @@ function closeDevelopers() {
     document.getElementById("developersPopup").style.display = "none";
     document.querySelector('.content').classList.remove('blur');
 }
-  // JavaScript to dynamically set the current year
+  // JavaScript to dynamically set the current year updating 
   document.getElementById("currentYear").textContent = new Date().getFullYear();
