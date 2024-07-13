@@ -26,6 +26,83 @@
 
  </header>
 
+
+ <nav>
+   <div class="nav-for-mob" id="navmob">
+       <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
+       <a href="#">Home</a>
+       <a href="javascript:void(0)" onclick="openProfile()">Profile</a>
+       <a href="javascript:void(0)" onclick="openDevelopers()">Developers</a>
+       <a href="#">Clients</a>
+       <a href="#">Contact</a>
+   </div>
+   <span class="open-btn" onclick="openNav()">&#9776;</span>
+</nav>
+
+<!-- Popups -->
+    <!-- Profile Popup -->
+    <div id="profilePopup" class="profile-popup">
+      <div class="profile-popup-content">
+          <span class="close-profile-btn" onclick="closeProfile()">&times;</span>
+
+          <div class="profpopup">
+
+              <div class="profimage">
+
+                  <img src="logo.png" alt="Profile Picture">
+
+              </div>
+
+              <h3>Whitev Web Nepal</h3>
+              <h4>Well known Web-Dev company<h4>
+                      <br>
+                      <p>You can check our Social Status and profile from here!</p>
+                      <div class="profbtn">
+
+
+                          <a class="fbbtn" href="#">Facebook</a>
+
+
+                          <a class="instabtn" href="#">Instagram</a>
+                      </div>
+
+          </div>
+
+
+      </div>
+      
+  </div>
+  <!-- Developers Popup -->
+  <div id="developersPopup" class="developers-popup">
+      <div class="developers-popup-content">
+          <span class="close-developers-btn" onclick="closeDevelopers()">&times;</span>
+
+          <div class="profpopup">
+
+              <div class="profimage">
+
+                  <img style="border:0.4rem solid green;" src="logo3.png" alt="Profile Picture">
+
+              </div>
+
+              <h3>Utsab Adhikari </h3>
+              <h4>Developer/creator of WWN<h4>
+                      <br>
+                      <p>You can check Social Status and profile from here!</p>
+                      <div class="profbtn">
+
+
+                          <a class="fbbtn" href="#">Facebook</a>
+
+
+                          <a class="instabtn" href="#">Instagram</a>
+                      </div>
+
+          </div>
+
+      </div>
+  </div>
+
  <div class="content">
 
     <h5>This site is Loading....</h5>
@@ -41,5 +118,14 @@
  </div>
 
 
+ <footer>
+
+   <p>&copy; <span id="currentYear"></span> White Web Nepal. All rights reserved.</p>
+
+</footer>
+
+<script src="script.js"></script>
+
 </body>
+
 </html>
