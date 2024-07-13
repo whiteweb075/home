@@ -29,7 +29,6 @@ function closeDevelopers() {
     document.querySelector('.content').classList.remove('blur');
 }
   // JavaScript to dynamically set the current year updating 
-=======
 function openNav() {
     document.getElementById("navmob").style.width = "250px";
     document.querySelector('.content').classList.add('blur');
