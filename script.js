@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 function openNav() {
     document.getElementById("navmob").style.width = "250px";
     document.querySelector('.content').classList.add('blur');
@@ -59,5 +59,4 @@ function closeDevelopers() {
     document.querySelector('.content').classList.remove('blur');
 }
   // JavaScript to dynamically set the current year
->>>>>>> 7131596e8d42da423c96b9c041d8c47647c11e97
   document.getElementById("currentYear").textContent = new Date().getFullYear();
