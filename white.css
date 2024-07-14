@@ -35,7 +35,7 @@ body {
         margin-top: 2rem;
         color: violet;
         font-style: italic;
-        padding: 2.1rem;
+        padding: 1rem;
     }
     .content2 {
         display: flex;
@@ -44,8 +44,9 @@ body {
         flex-direction: column;
     }
     .content2 img {
-        height: fit-content;
-        width: 91%;
+        height: 60vh;
+        width: 80%;
+       
     }
     .nav-for-mob {
         height: 100%;
@@ -184,6 +185,21 @@ body {
         flex-wrap: wrap;
         padding: 1rem;
     }
+     #profbtn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 1rem;
+     }
+     #profbtn .fbbtn {
+        text-decoration: none;
+        color: white;
+        background-color: blue;
+        padding: 0.7rem;
+        border-radius: 10px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 1);
+     }
     .profpopup .profbtn .fbbtn {
         text-decoration: none;
         color: white;
@@ -203,6 +219,9 @@ body {
     }
     .profpopup .profbtn a:hover {
         background-color: #aaa;
+    }
+    #profbtn .fbbtn:hover {
+        background-color: #aaa; 
     }
 }
 
