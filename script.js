@@ -34,4 +34,4 @@ function closeDevelopers() {
 // Set the current year in the footer
 document.addEventListener('DOMContentLoaded', (event) => {
     document.getElementById("currentYear").textContent = new Date().getFullYear();
-});
+});s
